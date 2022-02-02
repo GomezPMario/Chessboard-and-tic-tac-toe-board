@@ -1,4 +1,3 @@
-//TRABAJO REALIZADO POR MARIO GÓMEZ PEÑA (alu.124956@usj.es)
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -221,7 +220,7 @@ void lineaHorizontalInferior3 (int numCuadro, int aristaCuadro, int esquinaInfer
 int main()
 {
 
-    printf("Bienvenido al programa realizado por Mario Gómez Peña\n");
+    printf("Bienvenido al programa realizado por Mario GÃ³mez PeÃ±a\n");
 
     int eleccion;
     int alturaCuadro;
@@ -247,15 +246,15 @@ int main()
     printf("\nIntroduce el valor de la anchura: ");
     scanf("%d", &aristaCuadro);
 
-    printf("\nCómo quiere ver el tablero, ¿con línea simple o con línea doble?");
-    printf("\n\t1. Línea simple");
-    printf("\n\t2. Línea doble");
-    printf("\nSu opción elegida es: ");
+    printf("\nCÃ³mo quiere ver el tablero, Â¿con lÃ­nea simple o con lÃ­nea doble?");
+    printf("\n\t1. LÃ­nea simple");
+    printf("\n\t2. LÃ­nea doble");
+    printf("\nSu opciÃ³n elegida es: ");
     scanf("%d", &formatoLinea);
     while (formatoLinea != 1 && formatoLinea != 2)
     {
-        printf("\nEl valor introducido por teclado, no es válido. Inténtelo de nuevo.");
-        printf("\nSu nueva opción elegida es: ");
+        printf("\nEl valor introducido por teclado, no es vÃ¡lido. IntÃ©ntelo de nuevo.");
+        printf("\nSu nueva opciÃ³n elegida es: ");
         scanf("%d",&formatoLinea);
     }
 
@@ -290,17 +289,17 @@ int main()
     }
 
 
-    printf("\n¿Qué es lo que quiere ver?");
+    printf("\nÂ¿QuÃ© es lo que quiere ver?");
     printf("\n\t1. Ajedrez");
     printf("\n\t2. Tres en raya\n");
-    printf("Su opción elegida es: ");
+    printf("Su opciÃ³n elegida es: ");
     scanf("%d", &eleccion);
     printf("\n");
 
     while (eleccion != 1 && eleccion != 2)
     {
-        printf("\nEl valor introducido por teclado, no es válido. Inténtelo de nuevo.");
-        printf("\nSu nueva opción elegida es: ");
+        printf("\nEl valor introducido por teclado, no es vÃ¡lido. IntÃ©ntelo de nuevo.");
+        printf("\nSu nueva opciÃ³n elegida es: ");
         scanf("%d",&eleccion);
     }
 
@@ -341,15 +340,15 @@ int main()
         lineaHorizontalInferior3 (alturaCuadro, aristaCuadro, esquinaInferiorIzquierda, guionHorizontal, esquinaInferiorDerecha, tInversa);
     }
 
-    printf("\n¿Está conforme con el tablero impreso?");
+    printf("\nÂ¿EstÃ¡ conforme con el tablero impreso?");
     printf("\n\t1. Si");
     printf("\n\t2. No\n");
-    printf("Su opción elegida es: ");
+    printf("Su opciÃ³n elegida es: ");
     scanf("%d", &conformidad);
     while (conformidad != 1 && conformidad != 2)
     {
-        printf("\nEl valor introducido por teclado, no es válido. Inténtelo de nuevo.");
-        printf("\nSu nueva opción elegida es: ");
+        printf("\nEl valor introducido por teclado, no es vÃ¡lido. IntÃ©ntelo de nuevo.");
+        printf("\nSu nueva opciÃ³n elegida es: ");
         scanf("%d",&eleccion);
     }
     if (conformidad == 2)
